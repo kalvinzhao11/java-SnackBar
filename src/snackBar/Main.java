@@ -67,7 +67,7 @@ public class Main {
 		Hashtable <Integer, String> vending = new Hashtable<>();
 		vending.put(food.getId(), food.getName());
 		vending.put(drink.getId(), drink.getName());
-		vending.put(office.getId(), office.getName()); // not need but could be use for future purpose
+		vending.put(office.getId(), office.getName()); // not needed but could be use for future purpose
 
 		List <Snack> snack = new ArrayList<>();
 		snack.add(chips);
